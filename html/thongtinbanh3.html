@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thongtinbanh</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/test.js" defer></script>
+    <link rel="stylesheet" href="../css/thongtinbanh.css">
+    <script src="../js/thongtinbanh.js"></script>
+
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="../img/logoBanh.jpg" alt="">
+        <div class="input-group search">
+            <input type="search" placeholder="Tìm kiếm"  >
+            <button class="btn btn-success" type="submit">Go</button>
+        </div>
+        <button class="btn button"><a href="../html/dangnhap.html">
+            <img class="icon" src="../img/taikhoan.png" alt="" >
+            <output>Tài khoản</output>
+          </a>
+        </button>
+        <button class="btn button-giohang"><a href="../html/giohang.html">
+            <img class="icon" src="../img/giohang.png" alt="" >
+          </a>
+        </button>  
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid gon">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../html/index.html">Trang chủ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Bánh Sinh Nhật
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../html/banhmousse.html">Bánh Mousse</a></li>
+                  <li><a class="dropdown-item" href="../html/banhgato.html">Bánh gato</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    COOKIES & MINICAKE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">COOKIES </a></li>
+                  <li><a class="dropdown-item" href="#">MINICAKE</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Khuyến mãi</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="nav">
+        <img class="cakeImage" id="cakeImage" src="" alt="Cake Image">
+        <div class="infoFrom">
+            <form>
+                <h1 id="cakeName"></h1>
+                <div class="gia">
+                    <p>giá :</p>
+                    <p id="cakeGia"></p>
+                    <p>VND</p>
+                </div>
+                <div class="form-row">
+                    <p>số lượng:</p>
+                    <input id="soLuongInput" type="number" min="1" max="10" value="1" placeholder="Số lượng">
+                </div>
+                <div class="button1">
+                    <input class="them" type="button" value="thêm vào giỏ hàng">
+                    <input class="mua" type="button" value="mua ngay">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="nav1">
+        <form>
+            <h5>Thành phần chính:</h5>
+            <div class="thongtin">
+                <p>- Socola</p>
+            </div>
+            <div class="thongtin">
+                <p>- Caramel</p>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <h5>Nguyen Van Nhat Truong</h5>
+    </div>
+</body>
+</html>

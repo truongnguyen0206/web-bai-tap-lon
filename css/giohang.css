@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    height: 100px;
+    width: auto;
+    min-width: 600px;
+}
+.logo {
+    float: left;
+    height: 150px;
+    width: 150px;
+    
+}
+.search{
+
+    width: 300px;
+    height: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.button{
+    border: none;
+}
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    width: 40px;
+    border-radius: 50px;
+}
+.button-giohang{
+    border: none;
+
+}
+.gon{
+    background-color: rgb(232, 192, 169);
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+}
+nav{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#total-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.button-container {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
